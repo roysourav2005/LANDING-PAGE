@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus - Join the Future of Connection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        .hero-section {
+            background: radial-gradient(ellipse at center, rgba(20, 20, 40, 0.8) 0%, #000 70%), url('https://placehold.co/1920x1080/000000/FFFFFF?text=Nexus+Background') no-repeat center center/cover;
+            height: 100vh;
+        }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            box-shadow: 0 0 25px rgba(0, 191, 255, 0.7);
+            transform: translateY(-2px);
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(0, 191, 255, 0.8);
+        }
+        .glow-text {
+            text-shadow: 0 0 8px rgba(0, 191, 255, 0.7);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 p-6 flex justify-between items-center glass-effect">
+        <h1 class="text-3xl font-bold tracking-wider glow-text">NEXUS</h1>
+        <nav>
+            <a href="#features" class="mx-4 text-lg hover:text-cyan-400 transition-colors">Features</a>
+            <a href="#vision" class="mx-4 text-lg hover:text-cyan-400 transition-colors">Our Vision</a>
+            <a href="#join" class="mx-4 text-lg hover:text-cyan-400 transition-colors">Join</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="hero-section flex flex-col justify-center items-center text-center px-4">
+        <h2 class="text-6xl md:text-8xl font-black tracking-tighter leading-tight mb-4 animate-fade-in-down">
+            Experience <span class="text-cyan-400 glow-text">Anything.</span><br> Become <span class="text-cyan-400 glow-text">Anyone.</span>
+        </h2>
+        <p class="text-xl md:text-2xl max-w-3xl text-gray-300 mb-8 animate-fade-in-up">
+            Nexus is the next evolution in human connection. A seamless interface to share skills, memories, and emotions. Transcend your limits.
+        </p>
+        <a href="#join" class="cta-button bg-cyan-500 text-black font-bold py-4 px-10 rounded-full text-xl animate-pulse">
+            Join the Nexus
+        </a>
+    </main>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 px-4 md:px-10">
+        <div class="container mx-auto">
+            <h3 class="text-5xl font-bold text-center mb-16">A New Reality Awaits</h3>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <!-- Feature 1 -->
+                <div class="glass-effect p-8 rounded-2xl border-2 border-transparent transition-all duration-300 feature-card">
+                    <div class="text-5xl mb-4 text-cyan-400">🧠</div>
+                    <h4 class="text-2xl font-bold mb-2">Shared Knowledge</h4>
+                    <p class="text-gray-400">Instantly acquire new skills. Learn a language in a day, master an instrument in an hour, or understand complex theories in minutes.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="glass-effect p-8 rounded-2xl border-2 border-transparent transition-all duration-300 feature-card">
+                    <div class="text-5xl mb-4 text-cyan-400">❤️</div>
+                    <h4 class="text-2xl font-bold mb-2">Radical Empathy</h4>
+                    <p class="text-gray-400">Experience the world from someone else's perspective. Feel their joys, understand their struggles, and connect on a profoundly deep level.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="glass-effect p-8 rounded-2xl border-2 border-transparent transition-all duration-300 feature-card">
+                    <div class="text-5xl mb-4 text-cyan-400">🌍</div>
+                    <h4 class="text-2xl font-bold mb-2">Boundless Exploration</h4>
+                    <p class="text-gray-400">Live through the memories of others. Climb Everest, explore the deep sea, or walk on Mars, all from the comfort of your own mind.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Vision Section -->
+<section id="vision" class="py-20 px-4 md:px-10 bg-black">
+    <div class="container mx-auto">
+        <!-- Section Heading -->
+        <h3 class="text-5xl font-bold text-center mb-16">Next Vision</h3>
+        <p class="text-xl text-center text-gray-400 max-w-3xl mx-auto mb-16">
+            Nexus envisions a future where technology bridges hearts and minds. Through immersive experiences, shared emotions, and boundary-breaking innovations, we strive to connect humanity in ways never thought possible.
+        </p>
+
+        <!-- Horizontal Flex Row -->
+        <div class="flex flex-col md:flex-row items-center justify-between gap-10">
+
+            <!-- Left Image -->
+            <div class="md:w-1/3 flex justify-center">
+                <img src="https://placehold.co/300x400/00BFFF/000000?text=Vision+1" alt="Vision Left" class="rounded-2xl shadow-lg shadow-cyan-500/20 w-full max-w-xs">
+            </div>
+
+            <!-- Center Text -->
+            <div class="md:w-1/3 text-center md:text-left">
+                <h4 class="text-4xl font-bold mb-6">The Future of Us</h4>
+                <p class="text-lg text-gray-300 mb-4">
+                    We believe technology should bring us closer, not pull us apart. Nexus isn't just a product; it's a new paradigm for interaction.
+                </p>
+                <p class="text-lg text-gray-300">
+                    Our vision is a world without barriers, where understanding is universal and every human experience is within reach.
+                </p>
+            </div>
+
+            <!-- Right Image -->
+            <div class="md:w-1/3 flex justify-center">
+                <img src="https://placehold.co/300x400/00BFFF/000000?text=Vision+2" alt="Vision Right" class="rounded-2xl shadow-lg shadow-cyan-500/20 w-full max-w-xs">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Join Section -->
+    <section id="join" class="py-20 px-4 md:px-10 text-center">
+        <div class="container mx-auto">
+            <h3 class="text-5xl font-bold mb-4">Be Among the First</h3>
+            <p class="text-xl text-gray-400 max-w-2xl mx-auto mb-10">The future is coming. Sign up to receive exclusive updates, and be the first to know when Nexus becomes available.</p>
+            <form class="max-w-xl mx-auto">
+                <div class="flex flex-col md:flex-row gap-4">
+                    <input type="email" placeholder="Enter your email address" class="w-full bg-gray-900 border-2 border-gray-700 rounded-full py-4 px-6 focus:outline-none focus:border-cyan-500 transition-colors">
+                    <button type="submit" class="cta-button bg-cyan-500 text-black font-bold py-4 px-10 rounded-full text-lg">Request Access</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer class="text-center p-8 border-t border-gray-800">
+        <p>&copy; 2025 Nexus Corporation. All rights reserved.</p>
+        <div class="mt-4">
+            <a href="#" class="mx-2 text-gray-500 hover:text-white">Privacy Policy</a>
+            <a href="#" class="mx-2 text-gray-500 hover:text-white">Terms of Service</a>
+        </div>
+    </footer>
+
+</body>
+</html>
